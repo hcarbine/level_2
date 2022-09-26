@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .column1 {
+    display:block;
+    float: left;
+    width: 33%; 
+    height:500px;
+    padding:10px;
+  }
+
+  .column2 {
+    display:block;
+    float: left;
+    width: 33%; 
+    height:500px;
+    padding:10px;
+  }
+
+  .column3 {
+    display:block;
+    float: left;
+    width: 33%; 
+    height:500px;
+    padding:10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#adding{
+    background-color: rgb(85, 167, 248);
+    text-align:center;
+    font-size: 18pt;
+}
+#subtracting{
+    background-color: rgb(181, 181, 248);
+    text-align:center;
+    font-size: 18pt;
+    
+}
+#multiplying{
+    background-color: rgb(246, 158, 148);
+    text-align:center;
+    font-size: 18pt;
+}
+
+#addbox1{
+  font-size: 24px;
+}
+  
+#addbox2{
+  font-size: 24px;
+}
+
+#minusbox1{
+  font-size: 24px;
+}
+
+#minusbox2{
+  font-size: 24px;
+}
+
+#multbox1{
+  font-size: 24px;
+}
+
+#multbox2{
+  font-size: 24px;
+}
+
+#add{
+  font-size: 24pt;
+}
+
+#subtract{
+  font-size: 24pt;
+}
+
+#multiply{
+  font-size: 24pt;
+}
