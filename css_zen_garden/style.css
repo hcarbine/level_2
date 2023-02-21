@@ -1,0 +1,277 @@
+
+.container {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "box1 box1 box1"
+    "box3 box3 box4"
+    "box5 box5 box6"
+    "box7 box7 box8"
+    "box9 box9 box9"
+    "box10 box10 box10";
+}
+
+#background-img {
+    position: fixed;
+    width: 100%;
+}
+
+#zen-circle {
+    opacity: 40%;
+    float:left;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.box1{
+    background-color:#325050;
+    grid-area: box1;
+    color: whitesmoke;
+    height: 500px;
+    position: relative;
+}
+
+h1{
+    font-family: 'julius sans one';
+    float: left;
+    font-size: 75px;
+    letter-spacing: 5px;
+    margin-top: 8%;
+    position:absolute;
+    margin-left: 20%;
+}
+h2{
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-size: 38px;
+    opacity: 70%;
+    position:absolute;
+    margin-left: 21%;
+    margin-top: 13%;
+    letter-spacing: 1px;
+}
+
+.box1{
+    background: url("huntington.jpg"); 
+    background-size: cover;
+    position: relative;
+}
+
+.contour {
+    position: absolute;
+    z-index: 1;
+    opacity: 50%;  
+    position: absolute;
+    width: 50%;
+}
+
+.contour2 {
+    position: absolute;
+    z-index: 1;
+    opacity: 50%;  
+    position: absolute;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.gridline {
+    position: absolute;
+    z-index: 2;
+    opacity: 40%;
+    height:100%;
+}
+.gridline1 {
+    position: absolute;
+    z-index: 2;
+    opacity: 40%;
+    height:100%;
+    margin-left: 20%;
+}
+.gridline2 {
+    position: absolute;
+    z-index: 2;
+    opacity: 40%;
+    height:100%;
+    margin-left: 40%;
+}
+
+.gridline3 {
+    position: absolute;
+    z-index: 2;
+    opacity: 40%;
+    height:100%;
+    margin-left: 60%;
+}
+.btn1{
+    font-size: 32px;
+    padding: 25px 50px 25px 50px;
+    font-family: julius sans one;
+    float:left;
+    margin-left:53%;
+    margin-top:10%;
+    background-color: rgba(186, 192, 189, 0.303);
+    color: rgb(255, 255, 255, 1);
+    text-align: center;
+    border: none;
+  
+}
+
+.btn2{
+    font-size: 32px;
+    padding: 16px 19px 13.3px 19px;
+    font-family: julius sans one;
+    float:left;
+    margin-top:10%;
+    background-color: rgba(186, 192, 189, 0.303);
+    text-align: center;
+    margin-left: .1%;
+    border: none;
+}
+
+.box3{
+    grid-area: box3;
+    background-color: rgb(251, 250, 247);
+    opacity: 100%;
+    position: relative;
+    height: fit-content;
+}
+h3{
+    font-family: 'julius sans one';
+    font-size: 48px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p{
+    font-family: 'libre baskerville';
+    font-size: 28px;
+    line-height: 2;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.box4{
+    background-color: #edf4f0;
+    grid-area: box4;
+    text-align: left;
+    position: relative;
+}
+h4{
+    font-family: 'julius sans one';
+    font-size: 28px;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+p1{
+    font-size: 28px;
+    margin-left: 20%;
+    font-style: italic;
+    line-height: 0;
+    color: darkseagreen;
+}
+p3{
+    font-family: 'libre baskerville';
+    font-size: 24px;
+    line-height: 0;
+}
+.hr1{
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+p4{
+    line-height: 0;
+    font-family: 'libre baskerville'
+}
+.box5{
+    background-color: rgba(138,188,159,0.5);
+    grid-area: box5;
+    height:fit-content;
+}
+
+.box6{
+    background-color: #bfdacc;
+    grid-area: box6;
+    text-align: left;
+}
+h5{
+    font-family: 'julius sans one';
+    font-size: 28px;
+    line-height: 3;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.hr2{
+    margin-right: 30%;
+}
+
+.hr3{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.box7{
+    background-color: rgb(250, 252, 250);
+    grid-area: box7;
+    height:fit-content;
+    position: relative;
+}
+
+.box8{
+    background-color: rgb(224, 233, 224);
+    grid-area: box8;
+    position: relative;
+}
+
+.box9{
+    background-color: rgb(9, 112, 9);
+    grid-area: box9;
+    height: 500px;
+    background: url("koi.jpg");
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p4 {
+    font-family: 'libre baskerville';
+    display: inline-block;
+    font-size: 50px;
+    line-height: 2;
+    position: relative;
+    margin: 6%;
+    text-align: center;
+}
+p5 {
+    font-style: italic;
+    color: rgb(161, 178, 161);
+}
+
+p6 {
+    color: rgb(222, 214, 214);
+}
+
+.box10{
+    background-color: #325050;
+    grid-area: box10;
+    height: 200px;
+    position: relative;
+    font-family: 'verdemoderna';
+    font-size: 50px;
+    color: white;
+}
+
+@font-face {
+	font-family: 'verdemoderna';
+	src:url('verdemoderna.eot');
+	src:url('verdemoderna.eot?#iefix') format('embedded-opentype'),
+		url('verdemoderna.woff') format('woff'),
+		url('verdemoderna.ttf') format('truetype'),
+		url('verdemoderna.svg#verdemoderna') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}                             

@@ -1,0 +1,95 @@
+body{
+    background-color:black;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+#box1{
+    width: 400px;
+    height: 400px;
+    border: 20px dashed white;
+    float: left;
+    margin-left: 19%;
+    margin-bottom: 75px;
+    background-color: red;
+}
+
+#box2{
+    width: 400px;
+    height: 400px;
+    border: 20px solid white;
+    float: left;
+    margin-left: 50px;
+    background-color: orange;
+    margin-bottom: 75px;
+}
+
+#box3{
+    width: 400px;
+    height: 400px;
+    border: 20px dotted white;
+    float: left;
+    margin-left: 50px;
+    background-color: yellow;
+    margin-bottom: 75px;
+}
+
+#box4{
+    width: 400px;
+    height: 400px;
+    border: 20px ridge white;
+    float: left;
+    margin-left: 19%;
+    background-color: green;
+}
+
+#box5{
+    width: 400px;
+    height: 400px;
+    border: 20px outset white;
+    float: left;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+#box6{
+    width: 400px;
+    height: 400px;
+    border: 20px groove white;
+    float: left;
+    margin-left: 50px;
+    background-color: purple;
+}
+
+#box1:hover {
+    background-color:deeppink;
+    width: 400px;
+}
+
+#box2:hover {
+    background-color:orangered;
+    width: 400px;
+}
+
+#box3:hover {
+    background-color:yellowgreen;
+    width: 400px;
+}
+
+#box4:hover {
+    background-color:greenyellow;
+    width: 400px;
+}
+
+#box5:hover {
+    background-color: blueviolet;
+    width: 400px;
+}
+
+#box6:hover {
+    background-color:lightcyan;
+    width: 400px;
+}

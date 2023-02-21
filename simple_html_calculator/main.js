@@ -13,9 +13,9 @@ form1.addEventListener("submit", function(event){
 
     const sum = num1+num2
 
-    const h1 = document.createElement('h1')
+    const h1 = document.getElementById('additionresults')
     h1.textContent = sum
-    document.getElementsByClassName("column1")[0].append(h1)
+
 })
 
 form2.addEventListener("submit", function(event){
@@ -29,9 +29,8 @@ form2.addEventListener("submit", function(event){
 
     const difference = num3-num4
 
-    const h1 = document.createElement('h1')
+    const h1 = document.getElementById('subtractionresults')
     h1.textContent = difference
-    document.getElementsByClassName("column2")[0].append(h1)
 })
 
 form3.addEventListener("submit", function(event){
@@ -45,10 +44,11 @@ form3.addEventListener("submit", function(event){
 
     const product = num5 * num6
 
-    const h1 = document.createElement('h1')
+    const h1 = document.getElementById('multiplicationresults')
     h1.textContent = product
     document.getElementsByClassName("column3")[0].append(h1)
 })
+
 
 
 

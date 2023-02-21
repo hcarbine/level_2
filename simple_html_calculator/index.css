@@ -5,25 +5,29 @@
   .column1 {
     display:block;
     float: left;
-    width: 33%; 
-    height:500px;
+    width: 32.7%; 
+    height:700px;
     padding:10px;
+    margin-left: 10px;
   }
 
   .column2 {
     display:block;
     float: left;
-    width: 33%; 
-    height:500px;
+    width: 32.7%; 
+    height:700px;
     padding:10px;
+    margin-left: 10px;
   }
 
   .column3 {
     display:block;
     float: left;
-    width: 33%; 
-    height:500px;
+    width: 32.7%; 
+    height:700px;
     padding:10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   .row:after {
@@ -32,54 +36,67 @@
     clear: both;
   }
 #adding{
-    background-color: rgb(85, 167, 248);
+    background-color: rgba(0, 128, 0, 0.442);
     text-align:center;
-    font-size: 18pt;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #subtracting{
-    background-color: rgb(181, 181, 248);
+    background-color: rgba(255, 166, 0, 0.869);
     text-align:center;
-    font-size: 18pt;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 #multiplying{
-    background-color: rgb(246, 158, 148);
+    background-color: rgba(128, 0, 128, 0.347);
     text-align:center;
-    font-size: 18pt;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #addbox1{
-  font-size: 24px;
+  font-size: 30px;
+  background-color: rgba(240, 248, 255, 0.523);
 }
   
 #addbox2{
-  font-size: 24px;
+  font-size: 30px;
+  background-color: rgba(240, 248, 255, 0.523);
 }
 
 #minusbox1{
-  font-size: 24px;
+  font-size: 30px;
+  background-color: rgba(240, 248, 255, 0.523);
 }
 
 #minusbox2{
-  font-size: 24px;
+  font-size: 30px;
+  background-color: rgba(240, 248, 255, 0.523);
 }
 
 #multbox1{
-  font-size: 24px;
+  font-size: 30px;
+  background-color: rgba(240, 248, 255, 0.523);
 }
 
 #multbox2{
-  font-size: 24px;
+  font-size: 30px;
+  background-color: rgba(240, 248, 255, 0.523);
 }
 
 #add{
-  font-size: 24pt;
+  font-size: 30px;
 }
 
 #subtract{
-  font-size: 24pt;
+  font-size: 30px;
 }
 
 #multiply{
-  font-size: 24pt;
+  font-size: 30px;
+}
+
+#clear{
+  font-size: 18px;
 }
