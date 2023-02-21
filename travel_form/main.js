@@ -1,27 +1,31 @@
-function formAlert(){
-    const form = form.getElementById("airline-form")
-    const submit = form.getElementById("submit")
-    var firstName = form.elements["first-Name"].value;
-    var lastName = form.elements["last-Name"].value;
-    var age = form.elements["age"].value;
-    var gender = form.elements["gender"].value;
-    var location = form.elements["travel-location"].value;
-    var diet = [];
-    if (form.elements['vegan'].checked) {
-        diet.push(form.getElementById('vegan').value);
+const form = document.getElementById("airline-form")
+form.addEventListener("submit", function(event){
+    event.preventDefault()
+    console.log("submitted")
+  var fName = document.getElementById("fName").value;
+  console.log(fName)
+  var lName = document.getElementById("lName").value;
+  console.log(lName)
+  var age = document.getElementById("age").value;
+  console.log(age)
+  var gender = document.getElementsByName("gender");
+    for (var i = 0; i < gender.length; i++) {
+    if (gender[i].checked) {
+        var gender = gender[i].value;
     }
-    else if (form.elements['gluten'].checked) {
-        diet.push(form.getElementById('gluten').value);
+      }
+  console.log(gender)
+var select = document.getElementById("where");
+var location = select.value;
+console.log(location);
+
+
+const diet = [];
+const checkboxes = document.querySelectorAll('input[name="diet"]:checked');
+    for (let i = 0; i < checkboxes.length; i++) {
+      diet.push(checkboxes[i].value);
     }
-    else if (form.elements['paleo'].checked) {
-        diet.push(form.getElementById('paleo').value);
-    }
-    else{
-        diet.push("")
-    }
-    submit.addEventListener("submit", function formAlert(){  
-alert("first-Name: " + firstName + "\nlast-Name: " + lastName + "\nage: " + age + "\ngender: " + gender + "\ntravel-location: " + location + "\ndiet: " + diet + "\nAwesome, now if you die, it won't be an accident..");
+    console.log(diet)
+        
+alert("First Name: " + fName + "\nLast Name: " + lName + "\nAge: " + age + "\nGender: " + gender + "\nTravel Location: " + location + "\nDiet: " + diet + "\nWelcome Aboard!");  
 })
-    }
-
-
