@@ -8,39 +8,47 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body> 
-    <h1><img src="mario-enemies.png" width="100%" class="enemies"></h1> 
+<h1><img src="mario-enemies.png" width="100%" class="enemies"></h1> 
     <h2>Mario's Pest Control</h2>
-    <table name = "pest" id="control">
-        <tr>
-            <th></th>
-            <th>Baddie</th>
-            <th>Baddie Price</th>
-            <th>Total Caught</th>
-        </tr>
-        <tr>
-            <td><img src="Goomba.png" alt="Goomba" width="175vw"></td>
-            <td>Goombas</td>
-            <td>5</td>
-            <td><input type="text" name="total" id="goombas"></td>
-        </tr>
-        <tr>
-            <td><img src="Bob-ombMK8.webp" alt=Bob-omb" width="175vw"></td>
-            <td>Bob-ombs</td>
-            <td>7</td>
-            <td><input type="text" name="total" id="bob-ombs"></td>
-        </tr>
-        <tr>
-            <td><img src="NSMBU_Cheep_Cheep.webp" alt="Cheep-cheep" width="175vw"></td>
-            <td>Cheep-cheeps</td>
-            <td>11</td>
-            <td><input type="text" name="total" id="cheep-cheeps"></td>
-        </tr>
-    </table>
-    <h3>
-        Total Cost :  <input type="text" name="final total" id="cost">
-    </h3>
-    <br><br><br><br><br><br><br>
+    <form name="goombas">
+        <div id="goombas" class="column1">
+            <h3>Goombas</h3>
+            <img src="Goomba.png" alt="Goomba" width="140vw">
+            <h4>Goomba Price: 5</h4>
+            <h5>Total Goombas Caught:<br>
+            <input name="goombas" id ="goombasinput" type="text"/>
+            </h5>
+        </div>
+    </form>
+
+    <form name="bob-ombs">
+        <div id="bob-ombs" class="column2">
+            <h3>Bob-ombs</h3>
+            <img src="Bob-ombMK8.webp" alt=Bob-omb" width="175vw">
+            <h4>Bob-omb Price: 7</h4>
+            <h5>Total Bob-ombs Caught:<br>
+              <input name="Bob-ombs" id ="bobombsinput" type="text"/>
+            </h5>
+        </div>
+    </form>
+
+    <form name="cheep-cheeps">
+        <div id="cheep-cheeps" class="column3">
+            <h3>Cheep-Cheeps</h3>
+            <img src="NSMBU_Cheep_Cheep.webp" alt="Cheep-cheep" width="175vw">                <h4>Cheep-Cheeps Price: 11</h4>
+            <h5>Total Cheep-Cheeps Caught:
+            <input name="cheep-cheeps" id ="cheepcheepsinput" type="text"/>
+            </h5> 
+        </div>
+    </form>
+    <br>
+    <br>
+    <h6>
+        Total Cost :  <input type="number" name="final total" id="cost">
+    </h6>
+    <br><br><br><br>
     <br>
     <footer>mario@email.com</footer> <footer>mario-pest-control.com<footer>123 Luigi Blvd Princess, Peachland 12345</footer>
+    <script src="main.js"></script>
 </body>
 </html>
