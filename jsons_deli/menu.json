@@ -1,62 +1,62 @@
 {
   "appetizers": [
     {
-      "name": "Code Bytes",
-      "ingredients": ["Garlic bread", "Tomato sauce", "Mozzarella cheese", "Basil"],
-      "description": "A classic bruschetta with an updated name that will leave you wanting more!"
+      "name": "Veggie Tray",
+      "ingredients": ["Carrots", "Broccoli", "Cauliflower", "Tomatoes", "Ranch Dressing"],
+      "description": "A plate of vegetables neatly arranged with a side of ranch dressing, perfect healthy nibbles for when you are mindlessly coding."
     },
     {
-      "name": "Debugging Dip",
-      "ingredients": ["Sour cream", "Chives", "Bacon bits", "Ranch dressing"],
-      "description": "A creamy and savory dip to debug your hunger with."
+      "name": "Chips and Salsa",
+      "ingredients": ["Mild Salsa", "Medium Salsa", "Hot Salsa", "Tortilla Chips"],
+      "description": "Tortilla chips served with your choice of heat of salsa, for a spicier coding experience, choose the hot salsa."
     }
   ],
   "cold sandwiches": [
     {
-      "name": "The Syntax Error",
-      "ingredients": ["Roast beef", "Swiss cheese", "Lettuce", "Tomato", "Mayonnaise", "Mustard"],
-      "description": "A classic roast beef sandwich with an added layer of Swiss cheese that will fix any syntax errors in your code."
+      "name": "Turkey",
+      "ingredients": ["Roasted turkey", "Provolone cheese", "Lettuce", "Tomato", "Mayonnaise"],
+      "description": "A classic turkey sandwich with just enough nutrition to keep you focused."
     },
     {
-      "name": "The GitHub",
-      "ingredients": ["Turkey", "Bacon", "Avocado", "Lettuce", "Tomato", "Mayonnaise"],
-      "description": "A sandwich with all the best ingredients that will help you push your code to the next level."
+      "name": "The Club",
+      "ingredients": ["Turkey", "Roast beef", "Ham", "American Cheese", "Bacon", "Avocado", "Lettuce", "Tomato", "Mayonnaise"],
+      "description": "A sandwich with all the best ingredients that will help you keep working."
     }
   ],
   "hot sandwiches": [
     {
-      "name": "The API",
+      "name": "The Hot Chicken",
       "ingredients": ["Chicken", "Bacon", "Cheddar cheese", "Lettuce", "Tomato", "Barbecue sauce"],
-      "description": "A hot and juicy chicken sandwich with barbecue sauce that will have you saying 'APIs have never tasted so good.'"
+      "description": "A hot and juicy chicken sandwich with barbecue sauce that will keep you zinging away at your code.'"
     },
     {
-      "name": "The Stack Overflow",
-      "ingredients": ["Meatballs", "Marinara sauce", "Parmesan cheese", "Basil"],
-      "description": "A classic meatball sub that will leave you feeling like you just found the answer to all your coding problems."
+      "name": "The Meatball",
+      "ingredients": ["Meatballs", "Marinara sauce", "Parmesan cheese"],
+      "description": "A classic meatball sub that will satisfy your coding craving."
     }
   ],
   "desserts": [
     {
-      "name": "Byte-sized Brownies",
+      "name": "Brownie",
       "ingredients": ["Flour", "Sugar", "Butter", "Cocoa powder", "Eggs"],
-      "description": "Small but mighty brownies that will make you feel like you're indulging in a little bit of code sweetness."
+      "description": "A basic brownie that will hit the sweet spot to hit all the basics of your programming."
     },
     {
-      "name": "Error-free Cheesecake",
-      "ingredients": ["Graham cracker crust", "Cream cheese", "Sugar", "Vanilla extract", "Eggs", "Sour cream"],
-      "description": "A creamy and error-free cheesecake that will leave you wanting more and more."
+      "name": "Sugar Cookie",
+      "ingredients": ["Flour", "Sugar", "Butter", "Vanilla extract", "Eggs", "Buttercream Frosting"],
+      "description": "A sweet cookie that will satisfy your sweet craving to continue focusing."
     }
   ],
   "drinks": [
     {
-      "name": "Java Jolt",
-      "ingredients": ["Coffee", "Milk", "Sugar"],
-      "description": "A classic coffee drink that will give you the jolt you need to code through the night."
+      "name": "Code Coke",
+      "ingredients": ["Coke", "Lime", "Coconut Syrup"],
+      "description": "A flavored coke with just the right sweetness and caffeine to code."
     },
     {
-      "name": "Soda Stream",
-      "ingredients": ["Soda water", "Your choice of flavored syrup"],
-      "description": "A customizable soda drink that will help you quench your thirst while coding."
+      "name": "Milk",
+      "ingredients": ["Choice of 1%, 2%, or Skim Milk"],
+      "description": "An ice cold glass of milk that does a body good for your programming endeavors."
     }
   ]
 }

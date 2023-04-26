@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(250, 242, 249);
+    margin-left: 5%;
+}
+
+h1,h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    margin-top: 5%;
+}
+
+h2 {
+    font-size: small;
+    
+}
+
+h3 {
+    font-size: large;
+}
+
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+label {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
