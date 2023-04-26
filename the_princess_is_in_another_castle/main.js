@@ -10,6 +10,9 @@ class Player {
     if (namePicked === "Mario" || namePicked === "Luigi") {
       this.name = namePicked;
     }
+   else {
+      console.log("Invalid name.");
+    }
   }
 
   gotHit() {
@@ -55,9 +58,11 @@ class Player {
   }
 }
 
-
 const player = new Player();
 player.setName("Mario");
+player.addCoin();
+player.gotHit();
+player.gotPowerup();
 player.print();
 
 
